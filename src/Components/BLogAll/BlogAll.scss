@@ -1,0 +1,19 @@
+.Post{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between;
+    &__item{
+        width: 15%;
+        
+        margin-bottom: 15px;
+        text-align: center;
+        border: 1px solid #333;
+        border-radius: 5px;
+    }
+    &__function{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+}
